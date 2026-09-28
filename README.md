@@ -178,13 +178,12 @@ A sustained change in these signals should trigger investigation before automati
 
 ---
 
-# 8. Streaming Anomaly Detector
+## 8. Streaming Anomaly Detector
 
 The engineering component implements a rolling z-score anomaly detector.
 
 Interface:
 
-```python
 detector.update(x) -> bool
 
 ---
@@ -211,7 +210,7 @@ The tests cover:
 
 Run the test suite with:
 
-```bash
+bash
 python -m pytest -v
 
 
@@ -244,7 +243,7 @@ python -m pytest -v
 
 Create and activate a virtual environment:
 
-```bash
+bash
 python3 -m venv .venv
 source .venv/bin/activate
 
