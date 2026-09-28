@@ -217,10 +217,13 @@ python -m pytest -v
 ---
 
 ## 10. Project Structure
+
+```text
 .
 ├── data/
 │   └── manufacturing_quality_dataset.csv
 ├── scripts/
+│   ├── __init__.py
 │   ├── analyze_failure_modes.py
 │   ├── benchmark_detector.py
 │   ├── run_experiment.py
@@ -236,6 +239,9 @@ python -m pytest -v
 ├── requirements.txt
 ├── README.md
 └── REPORT.md
+```
+
+---
 
 ---
 
